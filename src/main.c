@@ -74,83 +74,107 @@ void app_main()
         {
             mbi_set_frame(busy, test_long_disp_black, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==0){}
+            while (btn==0){
+                 mbi_GCLK_clock (257);
+            }
         }
         if (btn== 1)
         {
             mbi_set_frame(one_h, test_long_disp_black, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==1){}
+            while (btn==1){
+                 mbi_GCLK_clock (257);
+            }
         }
 
         if (btn== 2)
         {
             mbi_set_frame(zaneprazdneny, test_long_disp_black, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==2){}
+            while (btn==2){
+                 mbi_GCLK_clock (257);
+            }
         }
 
          if (btn== 3)
         {
             mbi_set_frame(zanjat, test_long_disp_black, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==3){}
+            while (btn==3){
+                 mbi_GCLK_clock (257);
+            }
         }
 
         if (btn== 4)
         {
             mbi_set_frame(hujnja, test_long_disp_black, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==4){}
+            while (btn==4){
+                 mbi_GCLK_clock (257);
+            }
         }   
 
         if (btn== 5)
         {
             mbi_set_frame(test_long_disp_black, svoboden, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==5){}
+            while (btn==5){
+                 mbi_GCLK_clock (257);
+            }
         }
 
         if (btn== 6)
         {
             mbi_set_frame(brest, brest, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==6){}
+            while (btn==6){
+                 mbi_GCLK_clock (257);
+            }
         }
 
         if (btn== 7)
         {
             mbi_set_frame(vashe_hujnja, test_long_disp_black, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==7){}
+            while (btn==7){
+                 mbi_GCLK_clock (257);
+            }
         }
 
         if (btn== 8)
         {
             mbi_set_frame(vashe_hujnja_2, test_long_disp_black, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==8){}
+            while (btn==8){
+                 mbi_GCLK_clock (257);
+            }
         }
 
         if (btn== 9)
         {
             mbi_set_frame(zanjat_2, test_long_disp_black, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==9){}
+            while (btn==9){
+                 mbi_GCLK_clock (257);
+            }
         }
 
         if (btn== 10)
         {
             mbi_set_frame(pivo, pivo, test_long_disp_black);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==10){}
+            while (btn==10){
+                 mbi_GCLK_clock (257);
+            }
         }
 
         if (btn== 11)
         {
             mbi_set_frame(hello, hello, hello);
             gpio_intr_enable(INPUT_GPIO);
-            while (btn==11){}
+            while (btn==11){
+                 mbi_GCLK_clock (257);
+            }
         }
     }
 
